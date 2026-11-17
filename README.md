@@ -8,7 +8,7 @@ Each folder holds the target contract, my exploit contract, and the script or Fo
 | Level | Vulnerability class | Exploit |
 |-------|--------------------|---------|
 | [Coin Flip](CoinFlip) | Predictable randomness from `blockhash` (10 wins, one per block) | `script.sh` |
-| [Telephone](Telephone) | `tx.origin` vs `msg.sender` authentication | Foundry test |
+| [Telephone](Telephone) | `tx.origin` vs `msg.sender` authentication | `middleware.sol` |
 | [Privacy](Privacy) | "Private" storage read directly from slots | `exploit.sh` |
 | [GateKeeper One](GateKeeper1) | `gasleft()` brute force and type-casting checks | `Hack.sol` + `exploit.sh` |
 | [GateKeeper Two](GateKeeper2) | `extcodesize` bypass from a constructor, XOR key | `Hack.sol` + `exploit.sh` |
